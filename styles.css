@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+html, body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: #000b18;
+}
+
+.heroe {
+    background-image: url("./assets/img/6baad7ad-5792-4cef-989e-be2f875df3f0.jpg");
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 14%;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 19vh;
+    margin: 0;
+    justify-content: center;
+}
+
+.nombre {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+}
+
+.empresa {
+    display: flex;
+    align-items: center;
+    color: #00ea64;
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.size {
+    font-size: 4rem;
+}
+
+.descripcion {
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+}
+
+.larger {
+    font-size: larger;
+}
+
+.t {
+    margin-top: 15%;
+}
+
+.cont {
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h2 {
+    display: flex;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    margin: 0;
+}
+
+#about {
+    background-color: #000b18;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.limpieza {
+    margin-top: 3%;
+}
+
+.mantenimiento {
+    margin-top: 0%;
+}
+
+.acerca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.m {
+    margin-top: 0px;
+}
+
+.ourservices {
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+}
+
+.texto {
+    color: white;
+}
+
+#ubicacion {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000b18;
+    justify-content: space-evenly;
+}
+
+.barra {
+    border-bottom: solid white;
+    width: 80%;
+}
+
+.mb {
+    margin-bottom: 4vh;
+}
+
+#flecha {
+    border: solid white;
+    border-width: 0px 10px 10px 0px;
+    display: inline-block;
+    padding: 5%;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+iframe {
+    margin-top: 6%;
+}
+
+nav {
+    margin-top: -14%;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 768px){
+    
+    .heroe{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        background-image: url("./assets/img/imgHeore.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin-top: 0;
+    }
+
+    nav {
+        margin-top: 0;
+    }
+
+    #about{
+        height: 100vh;
+    }
+    .titulo{
+        padding-left: 17%;
+        justify-content: flex-start
+    }
+    h2{
+        width: 50%;
+        padding-bottom: 0vh;
+        height: 70%;
+        align-items: center;
+    }
+
+    #flecha {
+        padding: 2%;
+    }
+
+   #navbarNavDropdown {
+       justify-content: flex-end;
+   }
+
+    iframe {
+        width: 60%;
+        margin-top: 2%;
+    }
+
+    .acerca {
+        width: 100%;
+    }
+}
+
