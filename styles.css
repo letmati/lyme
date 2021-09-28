@@ -9,6 +9,8 @@ html, body {
 
 .heroe {
     background-image: url("./assets/img/6baad7ad-5792-4cef-989e-be2f875df3f0.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     height: 100vh;
     display: flex;
     flex-direction: column;
